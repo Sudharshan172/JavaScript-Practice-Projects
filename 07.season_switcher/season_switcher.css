@@ -1,0 +1,64 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    
+}
+.bg-container{
+    height: 75vh;
+    width: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#seasonsImage{
+    height: 90%;
+    border-radius: 15px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.season-buttons{
+    height: 30px;
+    width: 100px;
+    border: 0px;
+    border-radius: 10px;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+.spring-button{
+    background-color: green;
+}
+.spring-button:active{
+    transform: scale(0.95);
+}
+.summer-button{
+    background-color: rgb(230, 230, 52);
+}
+.summer-button:active{
+    transform: scale(0.95);}
+.autmn-button{
+    background-color: red;
+}
+.autmn-button:active{
+    transform: scale(0.95);
+}
+.winter-button{
+    background-color: rgb(91, 91, 234);
+}
+.winter-button:active{
+    transform: scale(0.95);
+}

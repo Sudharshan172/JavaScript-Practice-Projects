@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tip_calculator.css">
+</head>
+<body>
+    <div class="template">
+        <div class="bg-container">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/00/81/f5/0081f54d-ba88-6e4d-1a54-7ff2ddedca1f/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/512x512bb.jpg" class="calculator-logo"/>
+            <h1 class="heading">Tip Calculator</h1>
+            <p class="para">Bill Amount</p>
+            <input type="number" class="input" id="billAmount"/>
+            <p class="para">Percentage Tip</p>
+            <input type="number" class="input" id="percentageTip"/>
+        </div>
+        <p id="tipAmount"></p>
+        <p id="totalBill"></p>
+        <button class="button" onclick="bill()">Calculate</button>
+    </div>
+    <script src="tip_calculator.js"></script>
+</body>
+</html>

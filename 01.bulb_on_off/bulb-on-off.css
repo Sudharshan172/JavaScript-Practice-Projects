@@ -1,0 +1,43 @@
+.bg-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: skyblue;
+}
+.button-section{
+    background-color: pink;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+.image-size{
+    height: 250px;
+    width: 250px;
+    margin-bottom: 50px;
+}
+
+.button{
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+    border-width: 0px;
+    color:black;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer; /* Changes cursor to a hand */
+}
+
+.button-on:hover{
+    background-color:green;
+}
+.button-off:hover{
+    background-color: red;
+}
+
+.button:active {
+    transform: scale(0.95); /* Gives a pressed effect when clicked */
+}

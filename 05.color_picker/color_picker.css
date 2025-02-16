@@ -1,0 +1,47 @@
+#bg-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.heading{
+    margin: 0px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.button{
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-family: "Roboto";
+    cursor: pointer;
+}
+.btn1{
+    background-color: #e0e0e0;
+}
+.btn2{
+    background-color: #6fcf97;
+}
+.btn3{
+    background-color: #56ccf2;
+}
+.btn4{
+    background-color: #bb6bd9;
+}
+.button:active {
+    transform: scale(0.95); /* Gives a pressed effect when clicked */
+}
+
+#color-name-display-button{
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: 0px;
+    background-color: black;
+    border-radius: 10px;
+}

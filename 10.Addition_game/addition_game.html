@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="addition_game.css">
+</head>
+<body>
+    <div class="template">
+            <img src="https://lh3.googleusercontent.com/GsTy1Rr1L1ZyRC_yN42yFNtto7REpDnneP3PbvbPmg4PSfWlkvi5YUTFLQ0CbwdC0SJTl7N-eueKpHw06jZnSYjyluGzTpV7iExG=e365-pa-nu-s0" class="image"/>
+            <div class="content-background">
+                <div class="content-container">
+                    <span class="number" id="num1">2</span>
+                    <span class="symbol">+</span>
+                    <span class="number" id="num2">34</span>
+                    <span class="symbol">=</span>
+                    <input class="input" type="number">
+                </div>
+                <div class="buttons">
+                    <button class="check" id="checkValue" onclick="checkValue()">Check</button>
+                    <button class="reset" id="resetValue" onclick="resetValue()">Reset</button>
+                </div>
+                <h2 class="message"></h2>
+            </div>
+    </div>
+    <script src="addition_game.js"></script>
+</body>
+</html>
