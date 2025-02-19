@@ -1,7 +1,7 @@
 ## JavaScript Practice Projects
 
-- **Bulb on-off**: [Bulb on-off](https://bulb-on-off-five.vercel.app/)
-- **Cat & Light**: [Cat & Light](https://cat-light.vercel.app/)
+- **Bulb on-off**: [Bulb on-off](https://bulb-on-off-navy.vercel.app/)
+- **Cat & Light**: [Cat & Light](https://cat-bulb.vercel.app/)
 - **Counter**: [Counter](https://counter-opal-gamma.vercel.app/)
 - **Guess the number**: [Guess the number](https://guess-the-number-one-theta.vercel.app/)
 - **Color Picker**: [Color Picker](https://color-picker-seven-umber.vercel.app/)
