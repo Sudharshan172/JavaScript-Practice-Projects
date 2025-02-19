@@ -41,11 +41,11 @@ body{
     font-weight: 800;
 }
 .input{
-    height: 25px;
+    height: 30px;
     width: 100px;
     border-radius: 10px;
     border: 2px solid black;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 550;
     text-align: center;
 
@@ -84,4 +84,84 @@ body{
 }
 .reset:active{
     transform: scale(0.95);
+}
+
+@media (min-width:300px) and (max-width:500px){
+    .template{
+        height: 60vh;
+        width: 90%;
+    }
+    .image{
+        height: 250px;
+    }
+    .input{
+        height: 28px;
+        font-size: 24px;
+    }
+}
+@media (min-width:200px) and (max-width:300px){
+    .template{
+        height: 50vh;
+        width: 90%;
+    }
+    .image{
+        height: 200px;
+    }
+    .number{
+        font-size: 15px;
+    }
+    .symbol{
+        font-size: 20px;
+    }
+    .input{
+        height: 20px;
+        width: 50px;
+        font-size: 85%;
+        text-align: center;
+    }
+    .check{
+        width: 60px;
+        margin-left: 10px;
+    }
+    .reset{
+        width: 60px;
+        margin-right: 10px;
+    }
+    .message{
+        font-size: 18px;
+    }
+}
+@media (max-width:199px){
+    .template{
+        height: 50vh;
+        width: 90%;
+    }
+    .image{
+        height: 200px;
+    }
+    .number{
+        font-size: 12px;
+    }
+    .symbol{
+        font-size: 20px;
+    }
+    .input{
+        height: 20px;
+        width: 30px;
+        font-size: 12px;
+        text-align: center;
+    }
+    .check{
+        width: 40px;
+        margin-left: 20px;
+        font-size: 70%;
+    }
+    .reset{
+        width: 40px;
+        margin-right: 20px;
+        font-size: 70%;
+    }
+    .message{
+        font-size: 15px;
+    }
 }

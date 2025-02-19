@@ -85,3 +85,53 @@ body{
     margin: 0px;
     color: green;
 }
+
+@media (min-width:350px) and (max-width:600px){
+    .template{
+        height: 70vh;
+        width: 75%;
+    }
+    .bg-container{
+        height: 55vh;
+    }
+    .calculator-logo{
+        height: 200px;
+    }
+}
+@media (min-width:250px) and (max-width:350px){
+    .template{
+        height: 65vh;
+        width: 80%;
+    }
+    .bg-container{
+        height: 50vh;
+    }
+    .calculator-logo{
+        height: 160px;
+    }
+}
+@media (max-width:250px){
+    .template{
+        height: 70vh;
+        width: 75%;
+    }
+    .bg-container{
+        height: 55vh;
+    }
+    .calculator-logo{
+        height: 200px;
+    }
+    .heading{
+        font-size: 20px;
+    }
+    .button{
+        width: 80px;
+        font-size: 80%;
+    }
+    #tipAmount{
+        font-size: 15px;
+    }
+    #totalBill{
+        font-size: 19px;
+    }
+}

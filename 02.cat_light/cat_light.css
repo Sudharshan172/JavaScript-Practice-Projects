@@ -6,7 +6,6 @@
     justify-content: center;
     align-items: center;
 }
-
 .bulb-image {
     width: 100px;
     margin-left: 30px;
@@ -14,7 +13,6 @@
 .cat-image {
     width: 200px;
 }
-
 .switch-board {
     background-color: #7b8794;
     width: 250px;
@@ -27,15 +25,14 @@
     justify-content: center;
     text-align: center;
 }
-
 .heading {
     color: #ffffff;
     font-family: "Roboto";
     font-size: 25px;
     font-weight: 600;
+    margin-top: 0px;
     margin-bottom: 15px;
 }
-
 .switch-on {
     color: white;
     background-color: green;
@@ -52,7 +49,6 @@
 .switch-on:active {
     transform: scale(0.90); /* Gives a pressed effect when clicked */
 }
-
 .switch-off {
     color: black;
     background-color: white;
@@ -68,4 +64,44 @@
 }
 .switch-off:active {
     transform: scale(0.90); /* Gives a pressed effect when clicked */
+}
+
+/*Responsive Design*/
+@media (max-width:480px){
+    .bulb-image{
+        width: 80px;
+        margin-left: 20px;
+    }
+    .cat-image{
+        width: 125px;
+        margin-left: 0px;
+    }
+    .switch-board{
+        width: 70px;
+        height: 30px;
+        margin-left: 0px;
+    }
+    .heading{
+        font-size: 12px;
+        margin: 0px;
+        margin-bottom: 8px;
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .switch-off{
+        height: 20px;
+        width: 35px;
+        font-size: 80%;
+        text-align: center;
+    }
+    .switch-on{
+        height: 20px;
+        width: 40px;
+        font-size: 90%;
+        margin-right: 10px;
+        
+    }
 }

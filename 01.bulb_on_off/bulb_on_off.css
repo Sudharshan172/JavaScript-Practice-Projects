@@ -1,0 +1,66 @@
+.bg-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: skyblue;
+}
+.button-section{
+    padding: 15px;
+    background-color: rgb(231, 230, 230);
+    border-radius: 10px;
+}
+.image-size{
+    height: 250px;
+    width: 250px;
+    margin-bottom: 40px;
+}
+
+.button{
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+    border-width: 0px;
+    background-color: red;
+    color:white;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+.button-on{
+    background-color: white;
+    color: black;
+    margin-right: 3px;
+}
+.button-on:active {
+    transform: scale(0.95); /* Gives a pressed effect when clicked */
+}
+.button-off:active {
+    transform: scale(0.95); /* Gives a pressed effect when clicked */
+}
+
+
+/*Responsive Design*/
+@media (max-width:480px){
+    .image-size{
+        height:200px;
+        width: 75%;
+    }
+    .button-section{
+        height: 10vh;
+        width: 60%;
+    }
+    .heading{
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+    .button{
+        height: 35%;
+        width: 45%;
+        font-size: 80%;
+        justify-content: space-between;
+    }
+}

@@ -14,7 +14,8 @@ body{
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: center;
-    max-width: 500px;
+    width: 50%;
+    height: 60vh;
     
 }
 
@@ -64,3 +65,56 @@ body{
     transform: scale(0.95);
 }
 
+/*Responsive Design*/
+@media (min-width:481px) and (max-width:768px){
+    .template{
+        height: 50vh;
+        width: 60%;
+    }
+    .bg-container{
+        height: 50vh;
+    }
+}
+@media (min-width:301px) and (max-width:480px){
+    .template{
+        height: 40vh;
+        width: 75%;
+    }
+    .bg-container{
+        height: 40vh;
+    }
+}
+@media (min-width:200px) and (max-width:300px){
+    .template{
+        height: 40vh;
+        width: 75%;
+    }
+    .bg-container{
+        height: 40vh;
+    }
+    #symbolStyle{
+        font-size: 27px;
+    }
+    #buttonStyle{
+        height: 25px;
+        width: 80px;
+        font-size: 85%;
+    }
+}
+@media (max-width:200px){
+    .template{
+        height: 30vh;
+        width: 75%;
+    }
+    .bg-container{
+        height: 30vh;
+    }
+    #symbolStyle{
+        font-size: 20px;
+    }
+    #buttonStyle{
+        height: 20px;
+        width: 60px;
+        font-size: 85%;
+    }   
+}

@@ -5,24 +5,25 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    
+}
+h1{
+    font-size: 60px;
 }
 #value{
-    font-size: 80px;
+    font-size: 65px;
     font-weight: 600;
 }
 .button-section{
     margin: 30px;
 }
-
-
 .btn-increase{
     height: 30px;
-    width: 100px;
     border-radius: 10px;
     border-width: 0px;
     font-family: "Roboto";
-    font-size: 15px;
+    font-size: 90%;
+    font-weight: 550;
+    width: 100px;
     cursor: pointer;
 }
 .btn-increase:hover {
@@ -32,15 +33,14 @@
 .btn-increase:active {
     transform: scale(0.95); /* Gives a pressed effect when clicked */
 }
-
-
 .btn-decrease{
     height: 30px;
+    font-size: 90%;
+    font-weight: 550;
     width: 100px;
     border-radius: 10px;
     border-width: 0px;
     font-family: "Roboto";
-    font-size: 15px;
     cursor: pointer;
 }
 .btn-decrease:hover {
@@ -50,15 +50,14 @@
 .btn-decrease:active {
     transform: scale(0.95); /* Gives a pressed effect when clicked */
 }
-
-
 .btn-reset{
     height: 30px;
-    width: 100px;
     border-radius: 10px;
     border-width: 0px;
     font-family: "Roboto";
-    font-size: 15px;
+    font-size: 90%;
+    font-weight: 550;
+    width: 100px;
     cursor: pointer;
 }
 .btn-reset:hover {
@@ -67,4 +66,37 @@
 }
 .btn-reset:active {
     transform: scale(0.95); /* Gives a pressed effect when clicked */
+}
+
+/*Responsive Design*/
+@media (max-width:480px){
+    h1{
+        font-size: 30px;
+    }
+    #value{
+        font-size: 35px;
+    }
+    .button-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn-increase{
+        margin-bottom: 10px;
+        font-size: 80%;
+        font-weight: 550;
+        width: 80px;
+    }
+    .btn-reset{
+        margin-bottom: 10px;
+        font-size: 80%;
+        font-weight: 550;
+        width: 80px;
+    }
+    .btn-decrease{
+        font-size: 80%;
+        font-weight: 550;
+        width: 80px;
+    }
 }
