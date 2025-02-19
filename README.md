@@ -4,7 +4,7 @@
 - **Cat & Light**: [Cat & Light](https://cat-bulb.vercel.app/)
 - **Counter**: [Counter](https://counter-chi-two.vercel.app/)
 - **Guess the number**: [Guess the number](https://guess-the-number-ruby.vercel.app/)
-- **Color Picker**: [Color Picker](https://color-picker-seven-umber.vercel.app/)
+- **Color Picker**: [Color Picker](https://color-picker-flame-iota.vercel.app/)
 - **Traffic Signal**: [Traffic Signal](https://traffic-signal-five.vercel.app/)
 - **Season Switcher**: [Season Switcher](https://season-switching.vercel.app/)
 - **Toggle the Image**: [Toggle the Image](https://toggle-image.vercel.app/)
