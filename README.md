@@ -2,8 +2,8 @@
 
 - **Bulb on-off**: [Bulb on-off](https://bulb-on-off-navy.vercel.app/)
 - **Cat & Light**: [Cat & Light](https://cat-bulb.vercel.app/)
-- **Counter**: [Counter](https://counter-opal-gamma.vercel.app/)
-- **Guess the number**: [Guess the number](https://guess-the-number-one-theta.vercel.app/)
+- **Counter**: [Counter](https://counter-chi-two.vercel.app/)
+- **Guess the number**: [Guess the number](https://guess-the-number-ruby.vercel.app/)
 - **Color Picker**: [Color Picker](https://color-picker-seven-umber.vercel.app/)
 - **Traffic Signal**: [Traffic Signal](https://traffic-signal-five.vercel.app/)
 - **Season Switcher**: [Season Switcher](https://season-switching.vercel.app/)
