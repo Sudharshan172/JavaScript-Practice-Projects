@@ -8,8 +8,8 @@
 - **Traffic Signal**: [Traffic Signal](https://traffic-signal-phi.vercel.app/)
 - **Season Switcher**: [Season Switcher](https://season-switcher.vercel.app/)
 - **Toggle the Image**: [Toggle the Image](https://toggle-image.vercel.app/)
-- **Tip Calculator**: [Tip Calculator](https://tip-calculator-nine-roan.vercel.app/)
-- **Addition Game**: [Addition Game](https://addition-game-sigma.vercel.app/)
-- **Random Color Generator**: [Random Color Generator](https://random-color-generate-ruby.vercel.app/)
-- **Clicks Counter**: [Clicks Counter](https://clicks-counting.vercel.app/)
+- **Tip Calculator**: [Tip Calculator](https://tip-calculator-nu-ashen.vercel.app/)
+- **Addition Game**: [Addition Game](https://addition-game-beta.vercel.app/)
+- **Random Color Generator**: [Random Color Generator](https://random-color-generate-peach.vercel.app/)
+- **Clicks Counter**: [Clicks Counter](https://clicks-counter.vercel.app/)
 
